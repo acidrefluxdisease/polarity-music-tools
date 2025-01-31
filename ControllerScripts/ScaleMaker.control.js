@@ -47,7 +47,31 @@ const scaleIntervals = {
   Arabic: [2, 1, 3, 1, 2, 2, 1],
   Persian: [1, 3, 1, 1, 2, 3, 1], // H-3H-H-H-W-3H-H
   Prometheus: [2, 2, 2, 3, 1, 2], // W-W-W-3H-H-W
-  Pelog: [1, 2, 4, 1, 4]
+  Pelog: [1, 2, 4, 1, 4],
+  Algerian: [2,1,3,1,1,3,1,2,1,2],
+  'Super: Locrian': [1,2,1,2,2,2,2],
+  Augmented: [3,1,3,1,3,1],
+  'Bebop: dominant': [2,2,1,2,2,1,1,1],
+  'Double: harmonic': [1,3,1,2,1,3,1],
+  Enigmatic: [1,3,2,2,2,1,1],
+  'Flamenco: mode': [1,3,1,2,1,3,1],
+  Gypsy: [2,1,3,1,1,2,2],
+  'Half: diminished': [2,1,2,1,2,2,2],
+  'Hungarian: minor': [2,1,3,1,1,3,1],
+  In: [1,4,2,1,4],
+  Insen: [1,4,2,3,2],
+  'Locrian: ♮6': [1,2,2,1,3,1,2],
+  'Major: bebop': [2,2,1,2,1,1,2,1],
+  'Major: Locrian': [2,2,1,1,2,2,2],
+  'Neapolitan: major': [1,2,2,2,2,2,1],
+  'Neapolitan: minor': [1,2,2,2,1,3,1],
+  'Octatonic: 1': [2,1,2,1,2,1,2,1],
+  'Octatonic: 2': [1,2,1,2,1,2,1,2],
+  'Scale: of: harmonics': [3,1,1,2,2,3],
+  Tritone: [1,3,2,1,3,2],
+  'Two-semitone: tritone': [1,1,4,1,1,4],
+  'Ukrainian: Dorian': [2,1,3,1,2,1,2],
+  Yo: [2,3,2,2,3]
 }
 
 // convert scaleIntervals object to an array of names
